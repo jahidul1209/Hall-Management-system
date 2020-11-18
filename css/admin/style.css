@@ -1,0 +1,53 @@
+/* Our Styles */
+
+
+
+
+
+/* Bootstrap Overrides */
+.bg-dark {
+  background-color: #d50d15!important;
+}
+.card-header {
+  background-color: #a5dab1;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFF;
+}
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .nav-link {
+  color: #d50d15;
+}
+#mainNav.fixed-top.navbar-dark .sidenav-toggler {
+    background-color: #d3d8dc;
+}
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .nav-link {
+  color: #1b9838;
+}
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav {
+  background: #dbdfe3;
+}
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level, #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level {
+  background: #e9ecef;
+}
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a:focus, #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a:hover, #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a:focus, #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a:hover {
+    color: #72a97f;
+    background: #e4e9ef;
+}
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .nav-link:hover {
+    color: #d50d15;
+    background: #a5dab1;
+}
+.card-link {
+    cursor: pointer;
+    min-height: 150px;
+    background: #a5dab1;
+    border: 1px solid green;
+    transition: .5s;
+    text-align: center;
+    font-size: 20px;
+}
+.card-link:hover {
+    background: #d50d15;
+    color: #FFF;
+    border: 1px solid yellow;
+}
